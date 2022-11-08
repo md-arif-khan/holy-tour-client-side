@@ -1,0 +1,78 @@
+[
+    {
+      
+      "name": "GRAND TURKEY",
+      "country": "TURKEY",
+      "ratting": 4.5,
+      "price": 2000,
+      "decription": "dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla",
+      "picture": "https://i.ibb.co/VSRPqqB/tour-photos-bursa-grand-mosque-1500x1000.jpg",
+      "date": "16 DEC - 23 DEC",
+      "duration": "8 days",
+      "avable": 20
+    },
+    {
+  
+      "name": "Grand Lalitpur",
+      "country": "Nepal",
+      "ratting": 5,
+      "price": 9000,
+      "decription": "Lalitpur Metropolitan City, historically Patan, is the fourth most populous city of Nepal after Kathmandu, Pokhara and Bharatpur, and it is located in the south-central part of Kathmandu Valley, a new metropolitan city of Nepal. Lalitpur is also known as Manigal.",
+      "picture": "https://i.ibb.co/YQR7PdZ/Nepal-Patan-Mangal.jpg",
+      "date": "1 JANU - 23 FEB",
+      "duration": "53 days",
+      "avable": 70
+    },
+    {
+      
+      "name": "Hot City Nashville",
+      "country": "United States",
+      "ratting": 3.5,
+      "price": 3000,
+      "decription": "Nashville is the capital of the U.S. state of Tennessee and home to Vanderbilt University. Legendary country music venues include the Grand Ole Opry House, home of the famous “Grand Ole Opry” stage and radio show. The Country Music Hall of Fame and Museum and historic Ryman Auditorium are Downtown, as is the District, featuring honky-tonks with live music and the Johnny Cash Museum, celebrating the singer's life.",
+      "picture": "https://i.ibb.co/mJkHvXs/bnago-executive-3747-hor-clsc.jpg",
+      "date": "16 FEB - 23 FEB",
+      "duration": "8 days",
+      "avable": 21
+    },
+    {
+     
+      "name": "Cool City Birmingham",
+      "country": "England",
+      "ratting": 5,
+      "price": 1400,
+      "decription": "Birmingham is a major city in England’s West Midlands region, with multiple Industrial Revolution-era landmarks that speak to its 18th-century history as a manufacturing powerhouse. It’s also home to a network of canals, many of which radiate from Sherborne Wharf and are now lined with trendy cafes and bars. In the city centre, the Birmingham Museum and Art Gallery is known for pre-Raphaelite masterpieces. ",
+      "picture": "https://i.ibb.co/RQRHyS3/maxresdefault.jpg",
+      "date": "16 Marcj - 26 March",
+      "duration": "10 days",
+      "avable": 20
+    },
+    {
+      
+      "name": "Grand City Dhaka",
+      "country": "Bangladesh",
+      "ratting": 3.5,
+      "price": 1000,
+      "decription": "Dhaka is the capital city of Bangladesh, in southern Asia. Set beside the Buriganga River, it’s at the center of national government, trade and culture. The 17th-century old city was the Mughal capital of Bengal, and many palaces and mosques remain. American architect Louis Khan’s National Parliament House complex typifies the huge, fast-growing modern metropolis.",
+      "picture": "https://i.ibb.co/Dzb8Z3L/Dhaka-21st-March-25870222381.jpg",
+      "date": "1 NOV - 15 NOV",
+      "duration": "15 days",
+      "avable": 11
+    },
+    {
+     
+      "name": "Hot City Palermo",
+      "country": "Italy",
+      "ratting": 4,
+      "price": 4000,
+      "decription": "Palermo is the capital of the Italian island of Sicily. The 12th-century Palermo Cathedral houses royal tombs, while the huge neoclassical Teatro Massimo is known for opera performances. Also in the center are the Palazzo dei Normanni, a royal palace started in the 9th century, and the Cappella Palatina, with Byzantine mosaics. Busy markets include the central Ballarò street market and the Vucciria, near the port",
+      "picture": "https://i.ibb.co/vJ8S9n5/Beautiful-cities-in-Italy-Depositphotos-Bologna-square-view.jpg",
+      "date": "12 JUNE - 20 JUNE",
+      "duration": "8 days",
+      "avable": 9
+    }
+  ]
+
+
+  
+  
