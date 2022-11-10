@@ -3,13 +3,13 @@ import { useContext } from 'react';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const ReviewField = ({rev}) => {
-  const {message,photo}=rev
+  const {message,photo,userName}=rev
   const {user}=useContext(AuthContext)
     return (
         <div>
             <div class="flex flex-col gap-3 py-4 md:py-8">
         <div className=''>
-          <span class="block text-sm font-bold">{user?.displayName}</span>
+          <span class="block text-sm font-bold">{userName}</span>
           
         </div>
 

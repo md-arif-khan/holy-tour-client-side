@@ -21,7 +21,8 @@ const PostReview = () => {
         reviewId:_id,
         name:name,
         email:user.email,
-        photo:user.photoURL
+        photo:user.photoURL,
+        userName:user.displayName
     }
     fetch('https://holy-tour-server.vercel.app/review',{
         method:'POST',

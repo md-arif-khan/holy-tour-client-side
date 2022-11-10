@@ -6,6 +6,7 @@ import ReviewField from "./ReviewField";
 import useTitle from "../../hooks/useTitle";
 const Details = () => {
   const [review,setReview]=useState([])
+  console.log(review)
   const data = useLoaderData();
   useTitle('Details')
   const {
