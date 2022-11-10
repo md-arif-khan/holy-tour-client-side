@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useLoaderData, useNavigate } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const Update = () => {
+  useTitle('Update')
     const updateData=useLoaderData()
     const [message,setMessage]=useState({})
    const navigate=useNavigate()
@@ -32,6 +34,7 @@ const Update = () => {
         })
     }
     const handleChange=event=>{
+     
         const field=event.target.name;
         console.log(field)
         const result=event.target.value;

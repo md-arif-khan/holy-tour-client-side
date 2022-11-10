@@ -1,9 +1,11 @@
 import React, { useContext, useEffect } from "react";
 import { useLoaderData, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthProvider/AuthProvider";
+import useTitle from "../hooks/useTitle";
 
 
 const PostReview = () => {
+  useTitle('Post Review')
   const navigate=useNavigate()
   const data = useLoaderData();
   const { _id,name } = data;

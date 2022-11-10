@@ -3,9 +3,11 @@ import { Link, useLoaderData } from "react-router-dom";
 import { StarIcon } from "@heroicons/react/24/solid";
 import Review from "./ReviewField";
 import ReviewField from "./ReviewField";
+import useTitle from "../../hooks/useTitle";
 const Details = () => {
   const [review,setReview]=useState([])
   const data = useLoaderData();
+  useTitle('Details')
   const {
     picture,
     name,
