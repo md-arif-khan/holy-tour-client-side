@@ -35,7 +35,7 @@ export const router=createBrowserRouter([
             {
                 path:'/details/:id',
                 element:<Details></Details>,
-                loader:({params})=>fetch(`http://localhost:5000/cardDetails/${params.id}`),
+                loader:({params})=>fetch(`https://holy-tour-server.vercel.app/cardDetails/${params.id}`),
             },
             {
                 path:'/login',
@@ -49,7 +49,7 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/postReview/:id',
-                loader:({params})=>fetch(`http://localhost:5000/cardDetails/${params.id}`),
+                loader:({params})=>fetch(`https://holy-tour-server.vercel.app/cardDetails/${params.id}`),
                 element:<PrivateRoute><PostReview></PostReview></PrivateRoute>
                
             },
@@ -60,7 +60,7 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/update/:id',
-                loader:({params})=>fetch(`http://localhost:5000/update/${params.id}`),
+                loader:({params})=>fetch(`https://holy-tour-server.vercel.app/update/${params.id}`),
                 element:<Update></Update>
             },
             {

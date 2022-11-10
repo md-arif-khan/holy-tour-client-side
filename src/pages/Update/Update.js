@@ -18,7 +18,7 @@ const Update = () => {
         //     photo:updateData.photo,
         //     reviewId:updateData.reviewId
         // }
-        fetch(`http://localhost:5000/update/${updateData._id}`,{
+        fetch(`https://holy-tour-server.vercel.app/update/${updateData._id}`,{
                 method:'PUT',
                 headers:{
                     'content-type':'application/json'

@@ -22,7 +22,7 @@ const Details = () => {
   } = data;
   console.log(data);
   useEffect(()=>{
-    fetch(`http://localhost:5000/review/${_id}`)
+    fetch(`https://holy-tour-server.vercel.app/review/${_id}`)
     .then(res=>res.json())
     .then(data=>setReview(data))
   },[])

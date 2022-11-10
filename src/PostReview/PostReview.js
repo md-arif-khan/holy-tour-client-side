@@ -23,7 +23,7 @@ const PostReview = () => {
         email:user.email,
         photo:user.photoURL
     }
-    fetch('http://localhost:5000/review',{
+    fetch('https://holy-tour-server.vercel.app/review',{
         method:'POST',
         headers:{
             'content-type':'application/json'

@@ -9,7 +9,7 @@ const UserReviewItem = ({review,setPersonalReview,personalReview}) => {
     const handleDelete=id=>{
         const proceed=window.confirm('Are You sure Delete?')
         if(proceed){
-            fetch(`http://localhost:5000/review/${id}`,{
+            fetch(`https://holy-tour-server.vercel.app/review/${id}`,{
                 method:'DELETE'
             })
             .then(res=>res.json())

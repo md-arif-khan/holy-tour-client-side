@@ -9,7 +9,7 @@ const UserReview = () => {
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/userreview?email=${user?.email}`,{
+    fetch(`https://holy-tour-server.vercel.app/userreview?email=${user?.email}`,{
       headers:{
         authorization:`Bearer ${localStorage.getItem('holyToken')}`
       }

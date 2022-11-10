@@ -4,7 +4,7 @@ import CardItem from '../Home/Card/CardItem';
 const TotalCard = () => {
     const [allData,setAllData]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/allData')
+        fetch('https://holy-tour-server.vercel.app/allData')
      .then(res=>res.json())
     .then(data=>setAllData(data))
     },[])
