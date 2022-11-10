@@ -2,10 +2,13 @@ import { Declaration } from 'postcss';
 import { createBrowserRouter } from 'react-router-dom';
 import Main from '../layout/Main';
 import Login from '../Login/Login';
+import AddService from '../pages/AddService/AddService';
 import Blog from '../pages/Blog/Blog';
 import Details from '../pages/Details/Details';
 import Home from '../pages/Home/Home/Home';
 import TotalCard from '../pages/TotalCard/TotalCard';
+import Update from '../pages/Update/Update';
+import UserReview from '../pages/UserReview/UserReview';
 import PostReview from '../PostReview/PostReview';
 import SignUp from '../SignUp/SignUp';
 import PrivateRoute from './PrivateRoute';
@@ -48,6 +51,20 @@ export const router=createBrowserRouter([
                 loader:({params})=>fetch(`http://localhost:5000/cardDetails/${params.id}`),
                 element:<PrivateRoute><PostReview></PostReview></PrivateRoute>
                
+            },
+            {
+                path:'/userReview',
+                element:<UserReview></UserReview>,
+               
+            },
+            {
+                path:'/update/:id',
+                loader:({params})=>fetch(`http://localhost:5000/update/${params.id}`),
+                element:<Update></Update>
+            },
+            {
+                path:'/addservice',
+                element:<AddService></AddService>
             }
         ]
     }

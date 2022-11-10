@@ -20,7 +20,13 @@ const Header = () => {
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/blog'>Blog</Link></li>
-        <li>{user?.email?<Link><button onClick={logout}  className="btn btn-sm">Log Out</button></Link>:<Link to='/login'><button className="btn btn-sm">Login</button></Link>}</li>
+        <li>{user?.email? 
+        <>
+        <Link  to='/userReview'><button  className="btn btn-sm">My Reviews</button></Link>
+        <Link to='/addservice'><button  className="btn btn-sm">Add Service</button></Link>
+        <Link><button onClick={logout}  className="btn btn-sm">Log Out</button></Link>
+        </>
+        :<Link to='/login'><button className="btn btn-sm">Login</button></Link>}</li>
       </ul>
     </div>
     <a className="btn btn-ghost normal-case text-xl text-white">Holy Tour</a>
@@ -30,7 +36,13 @@ const Header = () => {
     <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/blog'>Blog</Link></li>
-        <li>{user?.email?<Link><button onClick={logout}   className="btn btn-sm">Log Out</button></Link>:<Link to='/login'><button className="btn btn-sm">Login</button></Link>}</li>
+        <li>{user?.email?
+        <>
+        <Link to='/userReview'><button className="btn btn-sm btn-outline text-white">My Reviews</button></Link>
+        <Link to='/addservice'><button className="btn btn-sm btn-outline text-white">Add Service</button></Link>
+        <Link><button onClick={logout}  className="btn btn-sm">Log Out</button></Link>
+        </>
+        :<Link to='/login'><button className="btn btn-sm">Login</button></Link>}</li>
     </ul>
   </div>
  

@@ -15,10 +15,23 @@ const Login = () => {
     logIn(email,password)
     .then(result=>{
       const user=result.user;
-      form.reset()
-      alert('user login successfully')
-      navigate(from, { replace: true });
-      console.log(user)
+      const currentUser={
+        email:user.email
+      }
+      fetch('http://localhost:5000/jwt/',{
+        method:'POST',
+        headers:{
+          'content-type':'application/json'
+        },
+        body:JSON.stringify(currentUser)
+      }).then(res=>res.json())
+      .then(data=>{
+        localStorage.setItem('holyToken',data.token)
+        alert('user login successfully')
+        navigate(from, { replace: true });
+        form.reset()
+      })
+       
     })
     .catch(err=>console.log(err))
     console.log(email,password)
@@ -28,7 +41,7 @@ const Login = () => {
     .then(result=>{
       const user=result.user;
       navigate(from, { replace: true });
-      alert('google ligin successfully')
+      
     })
     .catch(err=>console.log(err))
   }

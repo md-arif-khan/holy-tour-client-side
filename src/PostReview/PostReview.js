@@ -1,21 +1,25 @@
 import React, { useContext, useEffect } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthProvider/AuthProvider";
 
 
 const PostReview = () => {
+  const navigate=useNavigate()
   const data = useLoaderData();
-  const { _id } = data;
+  const { _id,name } = data;
   const { user } = useContext(AuthContext);
   
   const submitReview = (event) => {
+    
     event.preventDefault()
     const form=event.target;
     const text=form.review.value;
     const reviewItem={
         message:text,
         reviewId:_id,
-        email:user.email
+        name:name,
+        email:user.email,
+        photo:user.photoURL
     }
     fetch('http://localhost:5000/review',{
         method:'POST',
@@ -26,6 +30,7 @@ const PostReview = () => {
     })
     .then(res=>res.json())
     .then(data=>{
+        
         form.reset()
        console.log(data)
     })
