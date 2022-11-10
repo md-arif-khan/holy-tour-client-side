@@ -5,6 +5,7 @@ import Login from '../Login/Login';
 import AddService from '../pages/AddService/AddService';
 import Blog from '../pages/Blog/Blog';
 import Details from '../pages/Details/Details';
+import Error from '../pages/Error/Error';
 import Home from '../pages/Home/Home/Home';
 import TotalCard from '../pages/TotalCard/TotalCard';
 import Update from '../pages/Update/Update';
@@ -65,6 +66,10 @@ export const router=createBrowserRouter([
             {
                 path:'/addservice',
                 element:<AddService></AddService>
+            },
+            {
+                path:'*',
+                element:<Error></Error>
             }
         ]
     }
