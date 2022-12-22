@@ -21,7 +21,7 @@ const Banner = () => {
                         <div>
                         <h3 className="text-center text-xl font-bold">City in France</h3>
                     <h1 className="text-center text-6xl font-bold mt-4 mb-4">Marseille</h1>
-                    <p className="text-center text-[18px] font-semibold">Tours is a university town between France's Cher and Loire rivers. Once a Gallic-Roman settlement, today it's a university town and a traditional gateway for exploring the chateaux of the Loire Valley region.</p>
+                    <p className="text-center text-[20px] font-bold">Tours is a university town between France's Cher and Loire rivers. Once a Gallic-Roman settlement, today it's a university town and a traditional gateway for exploring the chateaux of the Loire Valley region.</p>
                         </div>
                     </div>
 
