@@ -2,6 +2,7 @@ import { Declaration } from 'postcss';
 import { createBrowserRouter } from 'react-router-dom';
 import Main from '../layout/Main';
 import Login from '../Login/Login';
+import About from '../pages/About/About';
 import AddService from '../pages/AddService/AddService';
 import Blog from '../pages/Blog/Blog';
 import Details from '../pages/Details/Details';
@@ -40,6 +41,11 @@ export const router=createBrowserRouter([
             {
                 path:'/login',
                 element:<Login></Login>,
+               
+            },
+            {
+                path:'/about',
+                element:<About></About>,
                
             },
             {
