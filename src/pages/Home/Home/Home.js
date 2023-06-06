@@ -8,6 +8,8 @@ import CustomerSay from '../CustomerSay/CustomerSay';
 import Feature from '../Feature/Feature';
 import LatestPlace from '../LatestPlace/LatestPlace';
 import OurTeam from './../../OurTeam/OurTeam';
+import PaymentMethod from '../PaymentMethod/PaymentMethod';
+import ContactUs from '../ContactUs/ContactUs';
 
 const Home = () => {
     useTitle('Home')
@@ -21,6 +23,8 @@ const Home = () => {
             <LatestPlace></LatestPlace>
             <Gallery></Gallery>
             <OurTeam></OurTeam>
+            <PaymentMethod></PaymentMethod>
+            <ContactUs></ContactUs>
         </div>
     );
 };
